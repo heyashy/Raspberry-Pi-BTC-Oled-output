@@ -1,6 +1,7 @@
 import time
 import sys
 # sys.path.append('./drive')
+# CHANGE THIS TO THE INSTALL PATH OF YOUR SCRIPT
 script_path = '/home/pi/python-scripts/btc/python/'
 sys.path.append(script_path+'drive')
 import SPI
