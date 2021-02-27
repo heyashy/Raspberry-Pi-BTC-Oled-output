@@ -16,14 +16,6 @@ Inline-style:
 Open terminal of Raspbain and install libraries (BCM2835, wiringPi, Python) as below
 
 ```
-#Installing BCM2835 library, for more details of the libraries, you can refer ti its website: http://www.airspayce.com/mikem/bcm2835/
-wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.60.tar.gz
-tar zxvf bcm2835-1.60.tar.gz
-cd bcm2835-1.60/
-sudo ./configure
-make
-sudo make check
-sudo make install
 
 #Installing wiringPi libraries, sudo apt-get install wiringpi
 #For Pi 4, you need to update it
